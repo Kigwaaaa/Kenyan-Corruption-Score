@@ -1,0 +1,89 @@
+{
+    "ministry_leaders": {
+        "1": {
+            "name": "Ministry of Education",
+            "cabinet_secretary": {
+                "name": "Hon. Ezekiel Machogu",
+                "position": "Cabinet Secretary",
+                "image": "https://www.education.go.ke/images/machogu.jpg",
+                "appointment_date": "2022-10-27",
+                "background": "Former Member of Parliament for Nyaribari Chache Constituency"
+            },
+            "principal_secretary": {
+                "name": "Dr. Belio Kipsang",
+                "position": "Principal Secretary",
+                "image": "https://www.education.go.ke/images/kipsang.jpg",
+                "appointment_date": "2022-11-15",
+                "background": "Former Director of Education"
+            }
+        },
+        "2": {
+            "name": "Ministry of Health",
+            "cabinet_secretary": {
+                "name": "Hon. Susan Nakhumicha",
+                "position": "Cabinet Secretary",
+                "image": "https://www.health.go.ke/images/nakhumicha.jpg",
+                "appointment_date": "2022-10-27",
+                "background": "Former Health Systems Expert"
+            },
+            "principal_secretary": {
+                "name": "Dr. Peter Tum",
+                "position": "Principal Secretary",
+                "image": "https://www.health.go.ke/images/tum.jpg",
+                "appointment_date": "2022-11-15",
+                "background": "Former Director of Medical Services"
+            }
+        },
+        "3": {
+            "name": "Ministry of Infrastructure",
+            "cabinet_secretary": {
+                "name": "Hon. Kipchumba Murkomen",
+                "position": "Cabinet Secretary",
+                "image": "https://www.infrastructure.go.ke/images/murkomen.jpg",
+                "appointment_date": "2022-10-27",
+                "background": "Former Senator for Elgeyo Marakwet"
+            },
+            "principal_secretary": {
+                "name": "Eng. Julius Korir",
+                "position": "Principal Secretary",
+                "image": "https://www.infrastructure.go.ke/images/korir.jpg",
+                "appointment_date": "2022-11-15",
+                "background": "Former Director of Infrastructure"
+            }
+        },
+        "4": {
+            "name": "Ministry of Agriculture",
+            "cabinet_secretary": {
+                "name": "Hon. Mithika Linturi",
+                "position": "Cabinet Secretary",
+                "image": "https://www.agriculture.go.ke/images/linturi.jpg",
+                "appointment_date": "2022-10-27",
+                "background": "Former Senator for Meru"
+            },
+            "principal_secretary": {
+                "name": "Dr. Paul Ronoh",
+                "position": "Principal Secretary",
+                "image": "https://www.agriculture.go.ke/images/ronoh.jpg",
+                "appointment_date": "2022-11-15",
+                "background": "Former Director of Agriculture"
+            }
+        },
+        "5": {
+            "name": "Ministry of Defence",
+            "cabinet_secretary": {
+                "name": "Hon. Aden Duale",
+                "position": "Cabinet Secretary",
+                "image": "https://www.defence.go.ke/images/duale.jpg",
+                "appointment_date": "2022-10-27",
+                "background": "Former Leader of Majority in National Assembly"
+            },
+            "principal_secretary": {
+                "name": "Mr. Patrick Mariru",
+                "position": "Principal Secretary",
+                "image": "https://www.defence.go.ke/images/mariru.jpg",
+                "appointment_date": "2022-11-15",
+                "background": "Former Military Officer"
+            }
+        }
+    }
+} 

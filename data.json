@@ -1,0 +1,214 @@
+{
+    "ministries": [
+        {
+            "id": 1,
+            "name": "Health",
+            "allocation": 200.0,
+            "percentage": 5.5,
+            "leader": {
+                "name": "Dr. Debra Mulongo Barasa",
+                "position": "Cabinet Secretary",
+                "tenure": "July 2024 - Present",
+                "profile": "Former WHO official with 20 years of healthcare management experience"
+            },
+            "financialTracking": {
+                "allocated": 200.0,
+                "utilized": 180.0,
+                "pending": 20.0,
+                "lost": 0,
+                "efficiency": 90,
+                "corruptionIndex": 0.2
+            },
+            "completedPrograms": [
+                {
+                    "name": "Universal Healthcare Coverage",
+                    "cost": 50.0,
+                    "impact": "Covered 5 million citizens",
+                    "completionDate": "March 2024"
+                }
+            ],
+            "initiatedProjects": [
+                {
+                    "name": "Medical Equipment Modernization",
+                    "budget": 30.0,
+                    "progress": 60,
+                    "startDate": "January 2024"
+                }
+            ],
+            "keyPrograms": [
+                "Universal Healthcare",
+                "Medical Infrastructure",
+                "Disease Prevention",
+                "Healthcare Training"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Education",
+            "allocation": 250.0,
+            "percentage": 6.8,
+            "leader": {
+                "name": "Hon. Julius Migos Ogamba",
+                "position": "Cabinet Secretary",
+                "tenure": "July 2024 - Present",
+                "profile": "Former university professor with 15 years in education policy"
+            },
+            "financialTracking": {
+                "allocated": 250.0,
+                "utilized": 225.0,
+                "pending": 25.0,
+                "lost": 0,
+                "efficiency": 90,
+                "corruptionIndex": 0.15
+            },
+            "completedPrograms": [
+                {
+                    "name": "Digital Learning Initiative",
+                    "cost": 40.0,
+                    "impact": "Equipped 1000 schools with digital tools",
+                    "completionDate": "February 2024"
+                }
+            ],
+            "initiatedProjects": [
+                {
+                    "name": "Teacher Training Program",
+                    "budget": 35.0,
+                    "progress": 40,
+                    "startDate": "January 2024"
+                }
+            ],
+            "keyPrograms": [
+                "Digital Learning",
+                "Teacher Training",
+                "Infrastructure Development",
+                "Curriculum Reform"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Agriculture and Livestock Development",
+            "allocation": 180.0,
+            "percentage": 4.9,
+            "leader": {
+                "name": "Hon. Mithika Linturi",
+                "position": "Cabinet Secretary",
+                "tenure": "2022 - Present",
+                "profile": "Former Senator with extensive agricultural policy experience"
+            },
+            "financialTracking": {
+                "allocated": 180.0,
+                "utilized": 160.0,
+                "pending": 20.0,
+                "lost": 0,
+                "efficiency": 88.9,
+                "corruptionIndex": 0.3
+            },
+            "completedPrograms": [
+                {
+                    "name": "Irrigation Systems Upgrade",
+                    "cost": 45.0,
+                    "impact": "Improved 5000 hectares of farmland",
+                    "completionDate": "March 2024"
+                }
+            ],
+            "initiatedProjects": [
+                {
+                    "name": "Agricultural Technology Adoption",
+                    "budget": 25.0,
+                    "progress": 55,
+                    "startDate": "January 2024"
+                }
+            ],
+            "keyPrograms": [
+                "Food Security",
+                "Agricultural Technology",
+                "Livestock Development",
+                "Market Access"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Roads and Transport",
+            "allocation": 220.0,
+            "percentage": 6.0,
+            "leader": {
+                "name": "Hon. Kipchumba Murkomen",
+                "position": "Cabinet Secretary",
+                "tenure": "2022 - Present",
+                "profile": "Former Senator with focus on infrastructure development"
+            },
+            "financialTracking": {
+                "allocated": 220.0,
+                "utilized": 190.0,
+                "pending": 30.0,
+                "lost": 0,
+                "efficiency": 86.4,
+                "corruptionIndex": 0.35
+            },
+            "completedPrograms": [
+                {
+                    "name": "Highway Expansion Project",
+                    "cost": 60.0,
+                    "impact": "Expanded 200km of highways",
+                    "completionDate": "February 2024"
+                }
+            ],
+            "initiatedProjects": [
+                {
+                    "name": "Public Transport Modernization",
+                    "budget": 40.0,
+                    "progress": 50,
+                    "startDate": "January 2024"
+                }
+            ],
+            "keyPrograms": [
+                "Road Infrastructure",
+                "Public Transport",
+                "Traffic Management",
+                "Road Safety"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Interior and National Administration",
+            "allocation": 170.0,
+            "percentage": 4.6,
+            "leader": {
+                "name": "Hon. Kithure Kindiki",
+                "position": "Cabinet Secretary",
+                "tenure": "2022 - Present",
+                "profile": "Former Senator for Tharaka Nithi"
+            },
+            "financialTracking": {
+                "allocated": 170.0,
+                "utilized": 150.0,
+                "pending": 20.0,
+                "lost": 0,
+                "efficiency": 88.2,
+                "corruptionIndex": 0.25
+            },
+            "completedPrograms": [
+                {
+                    "name": "Security Infrastructure Upgrade",
+                    "cost": 35.0,
+                    "impact": "Enhanced security in 1000 locations",
+                    "completionDate": "March 2024"
+                }
+            ],
+            "initiatedProjects": [
+                {
+                    "name": "Digital ID System",
+                    "budget": 30.0,
+                    "progress": 65,
+                    "startDate": "January 2024"
+                }
+            ],
+            "keyPrograms": [
+                "National Security",
+                "Civil Registration",
+                "Border Control",
+                "Emergency Response"
+            ]
+        }
+    ]
+} 

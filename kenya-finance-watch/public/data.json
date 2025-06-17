@@ -1,0 +1,88 @@
+{
+  "ministries": [
+    {
+      "id": 1,
+      "name": "Health",
+      "allocation": 200.0,
+      "percentage": 5.5,
+      "leader": {
+        "name": "Dr. Debra Mulongo Barasa",
+        "position": "Cabinet Secretary",
+        "tenure": "July 2024 - Present",
+        "profile": "Former WHO official with 20 years of healthcare management experience"
+      },
+      "financialTracking": {
+        "allocated": 200.0,
+        "utilized": 180.0,
+        "pending": 20.0,
+        "lost": 0,
+        "efficiency": 90,
+        "corruptionIndex": 0.2
+      },
+      "completedPrograms": [
+        {
+          "name": "Universal Healthcare Coverage",
+          "cost": 50.0,
+          "impact": "Covered 5 million citizens",
+          "completionDate": "March 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Medical Equipment Modernization",
+          "budget": 30.0,
+          "progress": 60,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Universal Healthcare",
+        "Medical Infrastructure",
+        "Disease Prevention",
+        "Healthcare Training"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Education",
+      "allocation": 250.0,
+      "percentage": 6.8,
+      "leader": {
+        "name": "Hon. Julius Migos Ogamba",
+        "position": "Cabinet Secretary",
+        "tenure": "July 2024 - Present",
+        "profile": "Former university professor with 15 years in education policy"
+      },
+      "financialTracking": {
+        "allocated": 250.0,
+        "utilized": 225.0,
+        "pending": 25.0,
+        "lost": 0,
+        "efficiency": 90,
+        "corruptionIndex": 0.15
+      },
+      "completedPrograms": [
+        {
+          "name": "Digital Learning Initiative",
+          "cost": 40.0,
+          "impact": "Equipped 1000 schools with digital tools",
+          "completionDate": "February 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Teacher Training Program",
+          "budget": 35.0,
+          "progress": 40,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Digital Learning",
+        "Teacher Training",
+        "Infrastructure Development",
+        "Curriculum Reform"
+      ]
+    }
+  ]
+} 

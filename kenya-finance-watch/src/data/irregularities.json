@@ -1,0 +1,598 @@
+{
+  "lastUpdated": "2025-06-17",
+  "source": "Budget Policy Statement (BPS), Auditor General reports, EACC surveys, news articles",
+  "totalBudget": 4143.7,
+  "executiveBudget": 2488.7,
+  "irregularities": [
+    {
+      "ministryId": 1,
+      "ministryName": "Agriculture and Livestock Development",
+      "sector": "Agriculture, Rural & Urban Development",
+      "allocation": 50.0,
+      "irregularities": [
+        {
+          "type": "Project Disruption",
+          "description": "Low allocations disrupt projects; lack of extension services",
+          "amount": 9.6,
+          "year": "2024/25",
+          "status": "Ongoing"
+        },
+        {
+          "type": "Fraud",
+          "description": "KTDA fertilizer fraud",
+          "amount": 0.6,
+          "year": "2023",
+          "status": "Under Investigation"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["Dr. Andrew Mwihia Karanja"],
+      "denials": []
+    },
+    {
+      "ministryId": 2,
+      "ministryName": "Lands, Public Works, Housing, Urban Development",
+      "sector": "Agriculture, Rural & Urban Development",
+      "allocation": 37.8,
+      "irregularities": [
+        {
+          "type": "Project Delay",
+          "description": "Delayed land compensation",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        },
+        {
+          "type": "Inefficiency",
+          "description": "Digitization overlaps",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["Alice Wahome"],
+      "denials": []
+    },
+    {
+      "ministryId": 3,
+      "ministryName": "Energy and Petroleum",
+      "sector": "Energy, Infrastructure, ICT",
+      "allocation": 100.0,
+      "irregularities": [
+        {
+          "type": "Project Delay",
+          "description": "Delays in rural electrification",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        },
+        {
+          "type": "Pending Bills",
+          "description": "Pending bills",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        },
+        {
+          "type": "Procurement",
+          "description": "Geothermal Development Company (GDC) case",
+          "amount": null,
+          "year": "2024",
+          "status": "Case Withdrawn"
+        }
+      ],
+      "courtCases": [
+        {
+          "caseName": "GDC Officials Case",
+          "date": "2024-02-22",
+          "status": "Withdrawn",
+          "reason": "Insufficient evidence",
+          "namesInvolved": ["Three GDC officials (unnamed)"]
+        }
+      ],
+      "namesInvolved": ["James Opiyo Wandayi"],
+      "denials": [
+        {
+          "statement": "Insufficient evidence for GDC case",
+          "source": "ODPP",
+          "date": "2024-02-22"
+        }
+      ]
+    },
+    {
+      "ministryId": 4,
+      "ministryName": "Roads and Transport",
+      "sector": "Energy, Infrastructure, ICT",
+      "allocation": 350.0,
+      "irregularities": [
+        {
+          "type": "Pending Bills",
+          "description": "Pending bills for road contracts and land compensation",
+          "amount": 162.4,
+          "year": "2024/25",
+          "status": "Ongoing",
+          "source": "BPS Page 30"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["Davis Chirchir"],
+      "denials": []
+    },
+    {
+      "ministryId": 5,
+      "ministryName": "Information, Communication, Digital Economy",
+      "sector": "Energy, Infrastructure, ICT",
+      "allocation": 55.7,
+      "irregularities": [
+        {
+          "type": "Pending Bills",
+          "description": "Pending bills from centralized advertising",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        },
+        {
+          "type": "Program Duplication",
+          "description": "Program duplication (Jitume, Ajira)",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["Dr. Margaret Ndung'u"],
+      "denials": []
+    },
+    {
+      "ministryId": 6,
+      "ministryName": "Investments, Trade, and Industry",
+      "sector": "General Economic & Commercial Affairs",
+      "allocation": 20.0,
+      "irregularities": [
+        {
+          "type": "Underfunding",
+          "description": "Underfunded industrial parks",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        },
+        {
+          "type": "Policy Issue",
+          "description": "Unpredictable tax policies",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["Salim Mvurya"],
+      "denials": []
+    },
+    {
+      "ministryId": 7,
+      "ministryName": "Co-operatives and MSMEs Development",
+      "sector": "General Economic & Commercial Affairs",
+      "allocation": 20.0,
+      "irregularities": [
+        {
+          "type": "Risk",
+          "description": "Default risks in Hustlers Fund",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        },
+        {
+          "type": "Underfunding",
+          "description": "Underfunded Warehouse Receipt System",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["Wycliffe Oparanya"],
+      "denials": []
+    },
+    {
+      "ministryId": 8,
+      "ministryName": "Tourism and Wildlife",
+      "sector": "General Economic & Commercial Affairs",
+      "allocation": 16.7,
+      "irregularities": [
+        {
+          "type": "Misallocation",
+          "description": "Tourism Promotion Fund misallocation",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        },
+        {
+          "type": "Delay",
+          "description": "Human-wildlife conflict compensation delays",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["Rebecca Miano"],
+      "denials": []
+    },
+    {
+      "ministryId": 9,
+      "ministryName": "Health",
+      "sector": "Health",
+      "allocation": 147.5,
+      "irregularities": [
+        {
+          "type": "Procurement Fraud",
+          "description": "HIV testing kits procurement at KEMSA",
+          "amount": 2.5,
+          "year": "2024/25",
+          "status": "Under Investigation"
+        },
+        {
+          "type": "Misappropriation",
+          "description": "Mosquito net procurement",
+          "amount": 3.7,
+          "year": "2024/25",
+          "status": "Under Investigation"
+        },
+        {
+          "type": "Salary Irregularity",
+          "description": "Irregular salaries outside official payroll",
+          "amount": 0.766,
+          "year": "2024/25",
+          "status": "Under Investigation"
+        },
+        {
+          "type": "Training Misuse",
+          "description": "Overseas training for doctors",
+          "amount": 0.214,
+          "year": "2024/25",
+          "status": "Under Investigation"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": [
+        "Aden Duale",
+        "Susan Nakhumicha",
+        "Josephine Mburu"
+      ],
+      "denials": [
+        {
+          "statement": "Claimed $109M loss was an accounting issue",
+          "source": "Former Health Minister Sicily Kariuki",
+          "date": "2018"
+        }
+      ]
+    },
+    {
+      "ministryId": 10,
+      "ministryName": "Education",
+      "sector": "Education, Technical Training, Innovation",
+      "allocation": 666.5,
+      "irregularities": [
+        {
+          "type": "Budget Shortfall",
+          "description": "KSh 49.3B shortfall affecting capitation",
+          "amount": 49.3,
+          "year": "2024/25",
+          "status": "Ongoing"
+        },
+        {
+          "type": "Risk",
+          "description": "Manual TVET capitation risks",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        },
+        {
+          "type": "Underfunding",
+          "description": "Underfunded Special Needs Education",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["Julius Ogamba"],
+      "denials": []
+    },
+    {
+      "ministryId": 11,
+      "ministryName": "Interior and National Administration",
+      "sector": "Governance, Justice, Law & Order",
+      "allocation": 150.0,
+      "irregularities": [
+        {
+          "type": "Mismanagement",
+          "description": "KSh 5B in passport fees mismanaged",
+          "amount": 5.0,
+          "year": "2024/25",
+          "status": "Ongoing"
+        },
+        {
+          "type": "Inefficiency",
+          "description": "Police insurance inefficiencies",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["Onesmus Kipchumba Murkomen"],
+      "denials": [
+        {
+          "statement": "Justified raid on The Standard as state security",
+          "source": "Ministry",
+          "date": "2006"
+        }
+      ]
+    },
+    {
+      "ministryId": 12,
+      "ministryName": "Foreign and Diaspora Affairs",
+      "sector": "Public Administration & International Relations",
+      "allocation": 20.0,
+      "irregularities": [
+        {
+          "type": "Underfunding",
+          "description": "Underfunded diplomatic missions",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        },
+        {
+          "type": "Scandal",
+          "description": "Tokyo embassy scandal",
+          "amount": 1.57,
+          "year": "2010",
+          "status": "Unresolved"
+        }
+      ],
+      "courtCases": [
+        {
+          "caseName": "Tokyo Embassy Case",
+          "date": "2010",
+          "status": "Stalled",
+          "reason": "Witness procurement issues",
+          "namesInvolved": ["Thuita Mwangi", "Moses Wetang'ula"]
+        }
+      ],
+      "namesInvolved": [
+        "Dr. Musalia Mudavadi",
+        "Thuita Mwangi",
+        "Moses Wetang'ula"
+      ],
+      "denials": [
+        {
+          "statement": "Claimed Tokyo property purchase offered better value than free embassy house",
+          "source": "Ministry",
+          "date": "2010"
+        }
+      ]
+    },
+    {
+      "ministryId": 13,
+      "ministryName": "Public Service and Human Capital Development",
+      "sector": "Public Administration & International Relations",
+      "allocation": 50.0,
+      "irregularities": [
+        {
+          "type": "Misallocation",
+          "description": "Misallocated Government Delivery Services resources",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["Geoffrey K. Kiringa Ruku"],
+      "denials": []
+    },
+    {
+      "ministryId": 14,
+      "ministryName": "Defence",
+      "sector": "National Security",
+      "allocation": 200.0,
+      "irregularities": [
+        {
+          "type": "Cost Issue",
+          "description": "High costs from obsolete equipment",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        },
+        {
+          "type": "Delay",
+          "description": "Delayed Export Credit Agency funding",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["Roselinda Soipan Tuya"],
+      "denials": []
+    },
+    {
+      "ministryId": 15,
+      "ministryName": "Youth Affairs, Creative Economy, and Sports",
+      "sector": "Social Protection, Culture & Recreation",
+      "allocation": 30.0,
+      "irregularities": [
+        {
+          "type": "Underfunding",
+          "description": "Sports infrastructure funding gaps",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        },
+        {
+          "type": "Coordination",
+          "description": "Uncoordinated Talanta Hela program",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["Kipchumba Murkomen"],
+      "denials": []
+    },
+    {
+      "ministryId": 16,
+      "ministryName": "Labour and Social Protection",
+      "sector": "Social Protection, Culture & Recreation",
+      "allocation": 42.2,
+      "irregularities": [
+        {
+          "type": "Dependency",
+          "description": "Donor reliance for GBV initiatives",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        },
+        {
+          "type": "Coordination",
+          "description": "Poor sanitary pad coordination",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["Mutahi Kagwe"],
+      "denials": []
+    },
+    {
+      "ministryId": 17,
+      "ministryName": "Environment, Climate Change, and Forestry",
+      "sector": "Environment Protection, Water & Natural Resources",
+      "allocation": 40.0,
+      "irregularities": [
+        {
+          "type": "Revenue Loss",
+          "description": "Mining revenue loss due to poor surveillance",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["Deborah Mulongo Barasa"],
+      "denials": []
+    },
+    {
+      "ministryId": 18,
+      "ministryName": "Water, Sanitation, and Irrigation",
+      "sector": "Environment Protection, Water & Natural Resources",
+      "allocation": 50.0,
+      "irregularities": [
+        {
+          "type": "Overlap",
+          "description": "Mandate overlaps (NIA, NWHSA)",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        },
+        {
+          "type": "Sustainability",
+          "description": "Sustainability issues in irrigation projects",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Under EACC Monitoring"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["Eric Muriithi Muuga"],
+      "denials": []
+    },
+    {
+      "ministryId": 19,
+      "ministryName": "Mining, Blue Economy, and Maritime Affairs",
+      "sector": "Environment Protection, Water & Natural Resources",
+      "allocation": 38.0,
+      "irregularities": [
+        {
+          "type": "Underfunding",
+          "description": "Underfunded artisanal mining formalization",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["Hassan Ali Joho"],
+      "denials": []
+    },
+    {
+      "ministryId": 20,
+      "ministryName": "East African Community and Regional Affairs",
+      "sector": "Public Administration & International Relations",
+      "allocation": 10.0,
+      "irregularities": [
+        {
+          "type": "Participation",
+          "description": "Lack of public participation in EAC customs reviews",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["Peter Mathuki"],
+      "denials": []
+    },
+    {
+      "ministryId": 21,
+      "ministryName": "National Treasury and Economic Planning",
+      "sector": "Public Administration & International Relations",
+      "allocation": 271.7,
+      "irregularities": [
+        {
+          "type": "Revenue Shortfall",
+          "description": "KSh 178B revenue shortfall in 2023/24",
+          "amount": 178.0,
+          "year": "2023/24",
+          "status": "Ongoing"
+        },
+        {
+          "type": "Delay",
+          "description": "Delayed county allocations",
+          "amount": null,
+          "year": "2024/25",
+          "status": "Ongoing"
+        }
+      ],
+      "courtCases": [],
+      "namesInvolved": ["John Mbadi"],
+      "denials": []
+    }
+  ],
+  "statistics": {
+    "totalIrregularities": 45,
+    "totalAmount": 403.876,
+    "highestAmount": 178.0,
+    "mostAffectedMinistry": "National Treasury and Economic Planning",
+    "ongoingInvestigations": 35,
+    "resolvedCases": 2,
+    "withdrawnCases": 1
+  },
+  "sources": [
+    "Budget Policy Statement (BPS) 2024",
+    "Auditor General's 2023/24 report",
+    "EACC National Ethics and Corruption Survey 2023",
+    "Human Rights Watch World Report 2024: Kenya",
+    "KHRC Prosecution of Corruption Cases on Trial",
+    "Africanews Kenya Health Ministry Missing $109 Million",
+    "Wikipedia Corruption in Kenya",
+    "Kenyans.co.ke Top 5 Unresolved Corruption Cases",
+    "KELIN Kenya Auditor General's SHA Findings",
+    "The Conversation Kenya's Courts Corruption Hotspots",
+    "X Post by dr_ocholaherald on Health Corruption",
+    "KHRC Kenya's Slide into Repression"
+  ]
+} 

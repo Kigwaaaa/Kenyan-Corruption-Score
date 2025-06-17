@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenya Finance Watch - About</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, var(--kenya-black) 0%, var(--kenya-red) 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .content-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .methodology-card {
+            background: var(--card-bg);
+            border: 1px solid var(--kenya-red);
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .equation {
+            background: var(--kenya-black);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            font-family: monospace;
+            font-size: 1.2rem;
+        }
+
+        .importance-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .importance-card {
+            background: var(--card-bg);
+            border: 1px solid var(--kenya-green);
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: var(--kenya-red);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            margin: 2rem 0;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background: var(--kenya-green);
+        }
+
+        @media (max-width: 768px) {
+            .hero-section {
+                padding: 2rem 1rem;
+            }
+
+            .content-section {
+                padding: 1rem;
+            }
+
+            .equation {
+                font-size: 1rem;
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Kenya Finance Watch</div>
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="landing.html" class="active">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <h1>Transparency in Public Finance</h1>
+            <p>Empowering citizens through data-driven insights into government spending and financial accountability</p>
+        </section>
+
+        <section class="content-section">
+            <h2>About Kenya Finance Watch</h2>
+            <p>Kenya Finance Watch is a comprehensive platform dedicated to monitoring and analyzing financial irregularities in the Kenyan Finance Bill 2024-2025. Our mission is to promote transparency, accountability, and informed public discourse about government spending.</p>
+
+            <div class="methodology-card">
+                <h3>Our Methodology</h3>
+                <p>The Corruption Index is calculated using a sophisticated formula that takes into account multiple factors:</p>
+                
+                <div class="equation">
+                    Corruption Index = (w1 × Financial Irregularities) + (w2 × Transparency Score) + (w3 × Historical Corruption Risk)
+                </div>
+
+                <p>Where:</p>
+                <ul>
+                    <li>w1 = 0.5 (Weight for Financial Irregularities)</li>
+                    <li>w2 = 0.3 (Weight for Transparency Score)</li>
+                    <li>w3 = 0.2 (Weight for Historical Corruption Risk)</li>
+                </ul>
+
+                <p>Each ministry is evaluated based on:</p>
+                <ul>
+                    <li>Budget vs. Actual Expenditure Discrepancies</li>
+                    <li>Documentation and Reporting Quality</li>
+                    <li>Historical Patterns of Financial Management</li>
+                    <li>Public Procurement Transparency</li>
+                </ul>
+            </div>
+
+            <h3>Why This Matters</h3>
+            <div class="importance-grid">
+                <div class="importance-card">
+                    <h4>Transparency</h4>
+                    <p>By making financial data accessible and understandable, we empower citizens to hold their government accountable.</p>
+                </div>
+                <div class="importance-card">
+                    <h4>Accountability</h4>
+                    <p>Our platform helps identify patterns of financial irregularities, enabling better oversight and corrective action.</p>
+                </div>
+                <div class="importance-card">
+                    <h4>Informed Decision Making</h4>
+                    <p>Citizens and stakeholders can make better decisions when they have clear insights into government spending.</p>
+                </div>
+            </div>
+
+            <div style="text-align: center;">
+                <a href="index.html" class="cta-button">Explore the Dashboard</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kenya Finance Watch. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
