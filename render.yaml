@@ -4,9 +4,8 @@ services:
     name: kenya-finance-watch
     env: static
     plan: free
-    rootDir: kenya-finance-watch
-    buildCommand: npm install && npm run build
-    staticPublishPath: ./dist
+    buildCommand: chmod +x build.sh && ./build.sh
+    staticPublishPath: kenya-finance-watch/dist
     envVars:
       - key: NODE_VERSION
         value: 18.17.0 
