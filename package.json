@@ -1,0 +1,13 @@
+{
+  "name": "kenyan-corruption-score",
+  "version": "1.0.0",
+  "description": "Kenya Finance Watch - Ministry Budget Analysis",
+  "scripts": {
+    "build": "cd kenya-finance-watch && npm install && npm run build",
+    "dev": "cd kenya-finance-watch && npm run dev",
+    "install-deps": "cd kenya-finance-watch && npm install"
+  },
+  "workspaces": [
+    "kenya-finance-watch"
+  ]
+} 
