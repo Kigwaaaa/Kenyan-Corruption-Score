@@ -1,0 +1,12 @@
+services:
+  # Frontend service (Static Site)
+  - type: web
+    name: kenya-finance-watch
+    env: static
+    plan: free
+    rootDir: kenya-finance-watch
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: NODE_VERSION
+        value: 18.17.0 

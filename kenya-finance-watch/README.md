@@ -13,15 +13,13 @@ A comprehensive web application for analyzing and monitoring Kenyan ministry bud
 ## Tech Stack
 
 - **Frontend**: React 18, Vite, Tailwind CSS, Chart.js
-- **Backend**: Python Flask
-- **Deployment**: Render
+- **Deployment**: Render (Static Site)
 
 ## Local Development
 
 ### Prerequisites
 
 - Node.js (v16 or higher)
-- Python 3.9+
 - npm or yarn
 
 ### Setup
@@ -32,29 +30,17 @@ git clone <your-repo-url>
 cd kenya-finance-watch
 ```
 
-2. Install frontend dependencies:
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Install backend dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-4. Start the development servers:
-
-In one terminal (backend):
-```bash
-python server.py
-```
-
-In another terminal (frontend):
+3. Start the development server:
 ```bash
 npm run dev
 ```
 
-5. Open your browser and navigate to `http://localhost:5173`
+4. Open your browser and navigate to `http://localhost:5173`
 
 ## Deployment to Render
 
@@ -67,25 +53,11 @@ npm run dev
    - Sign up/Login
    - Click "New +" and select "Blueprint"
    - Connect your Git repository
-   - Render will automatically detect the `render.yaml` file and deploy both services
+   - Render will automatically detect the `render.yaml` file and deploy
 
-3. The deployment will create:
-   - **Backend API**: `https://kenya-finance-watch-api.onrender.com`
-   - **Frontend**: `https://kenya-finance-watch-frontend.onrender.com`
+3. Your app will be available at: `https://kenya-finance-watch.onrender.com`
 
 ### Option 2: Manual Deployment
-
-#### Deploy Backend API
-
-1. Create a new Web Service on Render
-2. Connect your Git repository
-3. Configure:
-   - **Environment**: Python
-   - **Build Command**: `pip install -r requirements.txt`
-   - **Start Command**: `python server.py`
-   - **Plan**: Free
-
-#### Deploy Frontend
 
 1. Create a new Static Site on Render
 2. Connect your Git repository
@@ -96,12 +68,7 @@ npm run dev
 
 ## Environment Variables
 
-### Backend
-- `PORT`: Server port (set automatically by Render)
-- `PYTHON_VERSION`: Python version (3.9.16)
-
-### Frontend
-- `REACT_APP_API_URL`: Backend API URL (set automatically in render.yaml)
+- `NODE_VERSION`: Node.js version (18.17.0)
 
 ## Project Structure
 
@@ -111,20 +78,24 @@ kenya-finance-watch/
 │   ├── components/         # React components
 │   ├── pages/             # Page components
 │   └── data/              # Static data files
-├── public/                # Public assets
-├── server.py              # Flask backend server
-├── requirements.txt       # Python dependencies
+├── public/                # Public assets and data files
+│   ├── data.json          # Ministry data
+│   ├── irregularities.json # Corruption data
+│   ├── leadership.json    # Leadership data
+│   └── ministries.json    # Detailed ministry data
 ├── package.json           # Node.js dependencies
 ├── vite.config.js         # Vite configuration
 ├── render.yaml            # Render deployment config
 └── README.md              # This file
 ```
 
-## API Endpoints
+## Data Files
 
-- `GET /api/ministries` - Get ministry data
-- `GET /data.json` - Get raw data
-- `GET /` - Serve React app
+The application uses static JSON files for data:
+- `public/data.json` - Main ministry budget data
+- `public/irregularities.json` - Corruption and irregularities data
+- `public/leadership.json` - Leadership information
+- `public/ministries.json` - Detailed ministry information
 
 ## Contributing
 
