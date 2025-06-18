@@ -1,0 +1,188 @@
+{
+  "cabinet_secretaries": [
+    {
+      "id": 1,
+      "name": "Dr. Andrew Mwihia Karanja",
+      "ministry": "Agriculture and Livestock Development",
+      "appointment_date": "2024",
+      "background": "Development economics and agriculture expert",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Alice Wahome",
+      "ministry": "Lands, Public Works, Housing, and Urban Development",
+      "appointment_date": "2024",
+      "background": "Retained from previous Cabinet",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "name": "James Opiyo Wandayi",
+      "ministry": "Energy and Petroleum",
+      "appointment_date": "2024",
+      "background": "From opposition (ODM), overseeing energy reforms",
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "name": "Davis Chirchir",
+      "ministry": "Roads and Transport",
+      "appointment_date": "2024",
+      "background": "Retained from 2022 Cabinet",
+      "status": "Active"
+    },
+    {
+      "id": 5,
+      "name": "Dr. Margaret Ndung'u",
+      "ministry": "Information, Communication, and Digital Economy",
+      "appointment_date": "2024",
+      "background": "Focuses on ICT infrastructure",
+      "status": "Active"
+    },
+    {
+      "id": 6,
+      "name": "Salim Mvurya",
+      "ministry": "Investments, Trade, and Industry",
+      "appointment_date": "2024",
+      "background": "Former Kwale Governor",
+      "status": "Active"
+    },
+    {
+      "id": 7,
+      "name": "Wycliffe Oparanya",
+      "ministry": "Co-operatives and MSMEs Development",
+      "appointment_date": "2024",
+      "background": "Former Kakamega Governor, ODM member",
+      "status": "Active"
+    },
+    {
+      "id": 8,
+      "name": "Rebecca Miano",
+      "ministry": "Tourism and Wildlife",
+      "appointment_date": "2024",
+      "background": "Former KenGen CEO",
+      "status": "Active"
+    },
+    {
+      "id": 9,
+      "name": "Aden Duale",
+      "ministry": "Health",
+      "appointment_date": "March 2025",
+      "background": "Moved from Environment",
+      "status": "Active"
+    },
+    {
+      "id": 10,
+      "name": "Julius Ogamba",
+      "ministry": "Education",
+      "appointment_date": "2024",
+      "background": "Oversees education reforms, including JSS",
+      "status": "Active"
+    },
+    {
+      "id": 11,
+      "name": "Onesmus Kipchumba Murkomen",
+      "ministry": "Interior and National Administration",
+      "appointment_date": "December 2024",
+      "background": "Former Roads CS, replaced Kindiki",
+      "status": "Active"
+    },
+    {
+      "id": 12,
+      "name": "Dr. Musalia Mudavadi",
+      "ministry": "Foreign and Diaspora Affairs",
+      "appointment_date": "2024",
+      "background": "Prime Cabinet Secretary, leads foreign policy",
+      "status": "Active"
+    },
+    {
+      "id": 13,
+      "name": "Geoffrey K. Kiringa Ruku",
+      "ministry": "Public Service and Human Capital Development",
+      "appointment_date": "March 2025",
+      "background": "Nominated, replacing Justin Muturi",
+      "status": "Pending Approval"
+    },
+    {
+      "id": 14,
+      "name": "Roselinda Soipan Tuya",
+      "ministry": "Defence",
+      "appointment_date": "2024",
+      "background": "First Maasai woman CS, moved from Environment",
+      "status": "Active"
+    },
+    {
+      "id": 15,
+      "name": "Kipchumba Murkomen",
+      "ministry": "Youth Affairs, Creative Economy, and Sports",
+      "appointment_date": "2024",
+      "background": "Former Elgeyo Marakwet Senator",
+      "status": "Active"
+    },
+    {
+      "id": 16,
+      "name": "Mutahi Kagwe",
+      "ministry": "Labour and Social Protection",
+      "appointment_date": "January 2025",
+      "background": "Former Health CS under Kenyatta",
+      "status": "Active"
+    },
+    {
+      "id": 17,
+      "name": "Deborah Mulongo Barasa",
+      "ministry": "Environment, Climate Change, and Forestry",
+      "appointment_date": "March 2025",
+      "background": "Moved from Health",
+      "status": "Active"
+    },
+    {
+      "id": 18,
+      "name": "Eric Muriithi Muuga",
+      "ministry": "Water, Sanitation, and Irrigation",
+      "appointment_date": "2024",
+      "background": "Youngest CS at 32, water management expert",
+      "status": "Active"
+    },
+    {
+      "id": 19,
+      "name": "Hassan Ali Joho",
+      "ministry": "Mining, Blue Economy, and Maritime Affairs",
+      "appointment_date": "2024",
+      "background": "Former Mombasa Governor, ODM member",
+      "status": "Active"
+    },
+    {
+      "id": 20,
+      "name": "Peter Mathuki",
+      "ministry": "East African Community and Regional Affairs",
+      "appointment_date": "2023",
+      "background": "Assumed position, verification needed",
+      "status": "Unconfirmed"
+    },
+    {
+      "id": 21,
+      "name": "John Mbadi",
+      "ministry": "National Treasury and Economic Planning",
+      "appointment_date": "2024",
+      "background": "ODM member, oversees fiscal policy",
+      "status": "Active"
+    }
+  ],
+  "other_officials": [
+    {
+      "id": 22,
+      "name": "Dorcas Oduor",
+      "position": "Attorney General",
+      "appointment_date": "2024",
+      "status": "Active"
+    }
+  ],
+  "last_updated": "June 2025",
+  "notes": [
+    "Prime Cabinet Secretary: Dr. Musalia Mudavadi holds this role alongside Foreign Affairs",
+    "Pending Approvals: Geoffrey Ruku's nomination for Public Service awaits parliamentary vetting",
+    "East African Community: No recent CS confirmed; Peter Mathuki is assumed based on prior records",
+    "Source: Compiled from Tuko.co.ke, Jitimu.com, Wikipedia, and X posts up to June 2025"
+  ]
+} 

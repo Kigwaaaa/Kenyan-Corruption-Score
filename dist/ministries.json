@@ -1,0 +1,907 @@
+{
+  "ministries": [
+    {
+      "id": 1,
+      "name": "Ministry of Agriculture and Livestock Development",
+      "sector": "Agriculture, Rural and Urban Development",
+      "allocation": 120.0,
+      "percentage": 2.9,
+      "leader": {
+        "name": "Hon. Mithika Linturi",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Former Senator with extensive agricultural policy experience"
+      },
+      "financialTracking": {
+        "allocated": 120.0,
+        "utilized": 100.0,
+        "pending": 20.0,
+        "lost": 0,
+        "efficiency": 83.3,
+        "corruptionIndex": 0.3
+      },
+      "completedPrograms": [
+        {
+          "name": "Fertilizer Subsidy Program",
+          "cost": 30.0,
+          "impact": "Supported 1.5 million farmers",
+          "completionDate": "March 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Agricultural Technology Adoption",
+          "budget": 25.0,
+          "progress": 55,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Fertilizer Subsidy",
+        "Agricultural Technology",
+        "Livestock Development",
+        "Market Access"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ministry of Lands, Public Works, Housing, and Urban Development",
+      "sector": "Agriculture, Rural and Urban Development",
+      "allocation": 60.0,
+      "percentage": 1.4,
+      "leader": {
+        "name": "Hon. Alice Wahome",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Former MP with focus on housing and urban development"
+      },
+      "financialTracking": {
+        "allocated": 60.0,
+        "utilized": 45.0,
+        "pending": 15.0,
+        "lost": 0,
+        "efficiency": 75.0,
+        "corruptionIndex": 0.4
+      },
+      "completedPrograms": [
+        {
+          "name": "Land Digitization Project",
+          "cost": 20.0,
+          "impact": "Digitized 2 million land records",
+          "completionDate": "February 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Affordable Housing Program",
+          "budget": 30.0,
+          "progress": 40,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Land Digitization",
+        "Affordable Housing",
+        "Urban Planning",
+        "Public Works"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ministry of Energy and Petroleum",
+      "sector": "Energy, Infrastructure, and ICT",
+      "allocation": 100.0,
+      "percentage": 2.4,
+      "leader": {
+        "name": "Hon. Davis Chirchir",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Energy sector expert with focus on renewable energy"
+      },
+      "financialTracking": {
+        "allocated": 100.0,
+        "utilized": 85.0,
+        "pending": 15.0,
+        "lost": 0,
+        "efficiency": 85.0,
+        "corruptionIndex": 0.25
+      },
+      "completedPrograms": [
+        {
+          "name": "Geothermal Power Expansion",
+          "cost": 40.0,
+          "impact": "Added 280MW to national grid",
+          "completionDate": "March 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Renewable Energy Integration",
+          "budget": 30.0,
+          "progress": 60,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Geothermal Development",
+        "Renewable Energy",
+        "Power Distribution",
+        "Petroleum Management"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Ministry of Roads and Transport",
+      "sector": "Energy, Infrastructure, and ICT",
+      "allocation": 150.0,
+      "percentage": 3.6,
+      "leader": {
+        "name": "Hon. Kipchumba Murkomen",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Former Senator with focus on infrastructure development"
+      },
+      "financialTracking": {
+        "allocated": 150.0,
+        "utilized": 130.0,
+        "pending": 20.0,
+        "lost": 0,
+        "efficiency": 86.7,
+        "corruptionIndex": 0.35
+      },
+      "completedPrograms": [
+        {
+          "name": "Highway Expansion Project",
+          "cost": 60.0,
+          "impact": "Expanded 200km of highways",
+          "completionDate": "February 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Public Transport Modernization",
+          "budget": 40.0,
+          "progress": 50,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Road Infrastructure",
+        "Public Transport",
+        "Traffic Management",
+        "Road Safety"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Ministry of Information, Communication, and the Digital Economy",
+      "sector": "Energy, Infrastructure, and ICT",
+      "allocation": 100.0,
+      "percentage": 2.4,
+      "leader": {
+        "name": "Hon. Eliud Owalo",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "ICT expert with focus on digital transformation"
+      },
+      "financialTracking": {
+        "allocated": 100.0,
+        "utilized": 85.0,
+        "pending": 15.0,
+        "lost": 0,
+        "efficiency": 85.0,
+        "corruptionIndex": 0.2
+      },
+      "completedPrograms": [
+        {
+          "name": "ICT Hubs Development",
+          "cost": 30.0,
+          "impact": "Established 100 ICT hubs",
+          "completionDate": "March 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Fiber Optic Expansion",
+          "budget": 40.0,
+          "progress": 45,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "ICT Infrastructure",
+        "Digital Services",
+        "Broadband Access",
+        "E-Government"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Ministry of Finance and Economic Planning",
+      "sector": "General Economic and Commercial Affairs",
+      "allocation": 80.0,
+      "percentage": 1.9,
+      "leader": {
+        "name": "Hon. Njuguna Ndung'u",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Former Central Bank Governor with extensive economic expertise"
+      },
+      "financialTracking": {
+        "allocated": 80.0,
+        "utilized": 70.0,
+        "pending": 10.0,
+        "lost": 0,
+        "efficiency": 87.5,
+        "corruptionIndex": 0.15
+      },
+      "completedPrograms": [
+        {
+          "name": "Tax System Modernization",
+          "cost": 25.0,
+          "impact": "Improved tax collection efficiency by 30%",
+          "completionDate": "February 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Economic Recovery Program",
+          "budget": 35.0,
+          "progress": 40,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Fiscal Policy",
+        "Economic Planning",
+        "Public Finance",
+        "Tax Administration"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Ministry of Trade, Investment, and Industry",
+      "sector": "General Economic and Commercial Affairs",
+      "allocation": 40.0,
+      "percentage": 1.0,
+      "leader": {
+        "name": "Hon. Rebecca Miano",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Former corporate executive with focus on trade and investment"
+      },
+      "financialTracking": {
+        "allocated": 40.0,
+        "utilized": 35.0,
+        "pending": 5.0,
+        "lost": 0,
+        "efficiency": 87.5,
+        "corruptionIndex": 0.2
+      },
+      "completedPrograms": [
+        {
+          "name": "Export Promotion Initiative",
+          "cost": 15.0,
+          "impact": "Increased exports by 25%",
+          "completionDate": "March 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Industrial Parks Development",
+          "budget": 20.0,
+          "progress": 30,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Trade Promotion",
+        "Investment Attraction",
+        "Industrial Development",
+        "Export Growth"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Ministry of Tourism and Wildlife",
+      "sector": "General Economic and Commercial Affairs",
+      "allocation": 30.0,
+      "percentage": 0.7,
+      "leader": {
+        "name": "Hon. Alfred Mutua",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Former Governor with focus on tourism development"
+      },
+      "financialTracking": {
+        "allocated": 30.0,
+        "utilized": 25.0,
+        "pending": 5.0,
+        "lost": 0,
+        "efficiency": 83.3,
+        "corruptionIndex": 0.25
+      },
+      "completedPrograms": [
+        {
+          "name": "Tourism Recovery Program",
+          "cost": 10.0,
+          "impact": "Increased tourist arrivals by 40%",
+          "completionDate": "February 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Wildlife Conservation",
+          "budget": 15.0,
+          "progress": 35,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Tourism Promotion",
+        "Wildlife Conservation",
+        "Heritage Sites",
+        "Eco-Tourism"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Ministry of Health",
+      "sector": "Health",
+      "allocation": 200.0,
+      "percentage": 4.8,
+      "leader": {
+        "name": "Hon. Susan Nakhumicha",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Healthcare management expert with focus on universal healthcare"
+      },
+      "financialTracking": {
+        "allocated": 200.0,
+        "utilized": 180.0,
+        "pending": 20.0,
+        "lost": 0,
+        "efficiency": 90.0,
+        "corruptionIndex": 0.2
+      },
+      "completedPrograms": [
+        {
+          "name": "Universal Healthcare Coverage",
+          "cost": 50.0,
+          "impact": "Covered 5 million citizens",
+          "completionDate": "March 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Medical Equipment Modernization",
+          "budget": 30.0,
+          "progress": 60,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Universal Healthcare",
+        "Medical Infrastructure",
+        "Disease Prevention",
+        "Healthcare Training"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Ministry of Education",
+      "sector": "Education, Technical Training, and Innovation",
+      "allocation": 666.5,
+      "percentage": 16.0,
+      "leader": {
+        "name": "Hon. Ezekiel Machogu",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Former education administrator with focus on curriculum reform"
+      },
+      "financialTracking": {
+        "allocated": 666.5,
+        "utilized": 600.0,
+        "pending": 66.5,
+        "lost": 0,
+        "efficiency": 90.0,
+        "corruptionIndex": 0.15
+      },
+      "completedPrograms": [
+        {
+          "name": "Digital Learning Initiative",
+          "cost": 100.0,
+          "impact": "Equipped 1000 schools with digital tools",
+          "completionDate": "February 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Teacher Training Program",
+          "budget": 150.0,
+          "progress": 40,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Digital Learning",
+        "Teacher Training",
+        "Infrastructure Development",
+        "Curriculum Reform"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Ministry of Interior and National Administration",
+      "sector": "Governance, Justice, Law and Order",
+      "allocation": 170.0,
+      "percentage": 4.1,
+      "leader": {
+        "name": "Hon. Kithure Kindiki",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Former Senator with focus on security and governance"
+      },
+      "financialTracking": {
+        "allocated": 170.0,
+        "utilized": 150.0,
+        "pending": 20.0,
+        "lost": 0,
+        "efficiency": 88.2,
+        "corruptionIndex": 0.25
+      },
+      "completedPrograms": [
+        {
+          "name": "Security Infrastructure Upgrade",
+          "cost": 35.0,
+          "impact": "Enhanced security in 1000 locations",
+          "completionDate": "March 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Digital ID System",
+          "budget": 30.0,
+          "progress": 65,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "National Security",
+        "Civil Registration",
+        "Border Control",
+        "Emergency Response"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Ministry of Public Service, Gender, and Affirmative Action",
+      "sector": "Public Administration and International Relations",
+      "allocation": 80.0,
+      "percentage": 1.9,
+      "leader": {
+        "name": "Hon. Aisha Jumwa",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Former MP with focus on gender equality and public service"
+      },
+      "financialTracking": {
+        "allocated": 80.0,
+        "utilized": 70.0,
+        "pending": 10.0,
+        "lost": 0,
+        "efficiency": 87.5,
+        "corruptionIndex": 0.2
+      },
+      "completedPrograms": [
+        {
+          "name": "Gender Mainstreaming Program",
+          "cost": 25.0,
+          "impact": "Increased women participation in public service by 40%",
+          "completionDate": "February 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Public Service Reform",
+          "budget": 35.0,
+          "progress": 45,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Public Service Reform",
+        "Gender Equality",
+        "Affirmative Action",
+        "Capacity Building"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Ministry of Foreign and Diaspora Affairs",
+      "sector": "Public Administration and International Relations",
+      "allocation": 70.0,
+      "percentage": 1.7,
+      "leader": {
+        "name": "Hon. Musalia Mudavadi",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Former Prime Minister with extensive diplomatic experience"
+      },
+      "financialTracking": {
+        "allocated": 70.0,
+        "utilized": 60.0,
+        "pending": 10.0,
+        "lost": 0,
+        "efficiency": 85.7,
+        "corruptionIndex": 0.15
+      },
+      "completedPrograms": [
+        {
+          "name": "Diaspora Engagement Program",
+          "cost": 20.0,
+          "impact": "Increased diaspora remittances by 30%",
+          "completionDate": "March 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Diplomatic Relations Enhancement",
+          "budget": 30.0,
+          "progress": 50,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Diplomatic Relations",
+        "Diaspora Affairs",
+        "International Cooperation",
+        "Foreign Policy"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Ministry of Defence",
+      "sector": "National Security",
+      "allocation": 150.0,
+      "percentage": 3.6,
+      "leader": {
+        "name": "Hon. Aden Duale",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Former MP with focus on national security"
+      },
+      "financialTracking": {
+        "allocated": 150.0,
+        "utilized": 130.0,
+        "pending": 20.0,
+        "lost": 0,
+        "efficiency": 86.7,
+        "corruptionIndex": 0.2
+      },
+      "completedPrograms": [
+        {
+          "name": "Military Modernization",
+          "cost": 40.0,
+          "impact": "Enhanced defense capabilities",
+          "completionDate": "February 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Border Security Enhancement",
+          "budget": 35.0,
+          "progress": 55,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Defense Strategy",
+        "Military Training",
+        "Equipment Modernization",
+        "Border Security"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Ministry of Labour and Social Protection",
+      "sector": "Social Protection, Culture and Recreation",
+      "allocation": 60.0,
+      "percentage": 1.4,
+      "leader": {
+        "name": "Hon. Florence Bore",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Former MP with focus on labor rights and social protection"
+      },
+      "financialTracking": {
+        "allocated": 60.0,
+        "utilized": 50.0,
+        "pending": 10.0,
+        "lost": 0,
+        "efficiency": 83.3,
+        "corruptionIndex": 0.25
+      },
+      "completedPrograms": [
+        {
+          "name": "Social Protection Program",
+          "cost": 20.0,
+          "impact": "Supported 2 million vulnerable citizens",
+          "completionDate": "March 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Labor Market Reform",
+          "budget": 25.0,
+          "progress": 40,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Labor Rights",
+        "Social Protection",
+        "Employment Creation",
+        "Workplace Safety"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Ministry of Sports, Culture, and Heritage",
+      "sector": "Social Protection, Culture and Recreation",
+      "allocation": 40.0,
+      "percentage": 1.0,
+      "leader": {
+        "name": "Hon. Ababu Namwamba",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Former MP with focus on sports and cultural development"
+      },
+      "financialTracking": {
+        "allocated": 40.0,
+        "utilized": 35.0,
+        "pending": 5.0,
+        "lost": 0,
+        "efficiency": 87.5,
+        "corruptionIndex": 0.2
+      },
+      "completedPrograms": [
+        {
+          "name": "Sports Infrastructure Development",
+          "cost": 15.0,
+          "impact": "Built 50 sports facilities",
+          "completionDate": "February 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Cultural Heritage Preservation",
+          "budget": 20.0,
+          "progress": 35,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Sports Development",
+        "Cultural Heritage",
+        "Youth Sports",
+        "Tourism Promotion"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Ministry of Environment and Forestry",
+      "sector": "Environment Protection, Water and Natural Resources",
+      "allocation": 50.0,
+      "percentage": 1.2,
+      "leader": {
+        "name": "Hon. Soipan Tuya",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Environmental expert with focus on conservation"
+      },
+      "financialTracking": {
+        "allocated": 50.0,
+        "utilized": 45.0,
+        "pending": 5.0,
+        "lost": 0,
+        "efficiency": 90.0,
+        "corruptionIndex": 0.15
+      },
+      "completedPrograms": [
+        {
+          "name": "Forest Conservation Program",
+          "cost": 20.0,
+          "impact": "Protected 1 million hectares of forest",
+          "completionDate": "March 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Climate Change Mitigation",
+          "budget": 25.0,
+          "progress": 40,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Forest Conservation",
+        "Climate Change",
+        "Environmental Protection",
+        "Wildlife Management"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Ministry of Water, Sanitation, and Irrigation",
+      "sector": "Environment Protection, Water and Natural Resources",
+      "allocation": 40.0,
+      "percentage": 1.0,
+      "leader": {
+        "name": "Hon. Alice Wahome",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Former MP with focus on water resource management"
+      },
+      "financialTracking": {
+        "allocated": 40.0,
+        "utilized": 35.0,
+        "pending": 5.0,
+        "lost": 0,
+        "efficiency": 87.5,
+        "corruptionIndex": 0.2
+      },
+      "completedPrograms": [
+        {
+          "name": "Water Access Program",
+          "cost": 15.0,
+          "impact": "Provided water to 2 million citizens",
+          "completionDate": "February 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Irrigation Development",
+          "budget": 20.0,
+          "progress": 45,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Water Access",
+        "Sanitation",
+        "Irrigation",
+        "Water Conservation"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Ministry of Mining, Blue Economy, and Maritime Affairs",
+      "sector": "Environment Protection, Water and Natural Resources",
+      "allocation": 30.0,
+      "percentage": 0.7,
+      "leader": {
+        "name": "Hon. Salim Mvurya",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Former Governor with focus on natural resources"
+      },
+      "financialTracking": {
+        "allocated": 30.0,
+        "utilized": 25.0,
+        "pending": 5.0,
+        "lost": 0,
+        "efficiency": 83.3,
+        "corruptionIndex": 0.25
+      },
+      "completedPrograms": [
+        {
+          "name": "Mining Sector Development",
+          "cost": 10.0,
+          "impact": "Increased mining revenue by 40%",
+          "completionDate": "March 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Blue Economy Initiative",
+          "budget": 15.0,
+          "progress": 30,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Mining Development",
+        "Blue Economy",
+        "Maritime Affairs",
+        "Resource Management"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Ministry of East African Community and Regional Development",
+      "sector": "Public Administration and International Relations",
+      "allocation": 50.0,
+      "percentage": 1.2,
+      "leader": {
+        "name": "Hon. Rebecca Miano",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Former corporate executive with focus on regional integration"
+      },
+      "financialTracking": {
+        "allocated": 50.0,
+        "utilized": 45.0,
+        "pending": 5.0,
+        "lost": 0,
+        "efficiency": 90.0,
+        "corruptionIndex": 0.15
+      },
+      "completedPrograms": [
+        {
+          "name": "Regional Integration Program",
+          "cost": 20.0,
+          "impact": "Enhanced regional trade by 35%",
+          "completionDate": "February 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Cross-Border Infrastructure",
+          "budget": 25.0,
+          "progress": 40,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Regional Integration",
+        "Cross-Border Trade",
+        "Infrastructure Development",
+        "Policy Harmonization"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Ministry of Youth Affairs, Creative Economy, and Sports",
+      "sector": "Public Administration and International Relations",
+      "allocation": 50.0,
+      "percentage": 1.2,
+      "leader": {
+        "name": "Hon. Ababu Namwamba",
+        "position": "Cabinet Secretary",
+        "tenure": "2022 - Present",
+        "profile": "Former MP with focus on youth development"
+      },
+      "financialTracking": {
+        "allocated": 50.0,
+        "utilized": 45.0,
+        "pending": 5.0,
+        "lost": 0,
+        "efficiency": 90.0,
+        "corruptionIndex": 0.15
+      },
+      "completedPrograms": [
+        {
+          "name": "Youth Empowerment Program",
+          "cost": 20.0,
+          "impact": "Supported 500,000 youth",
+          "completionDate": "March 2024"
+        }
+      ],
+      "initiatedProjects": [
+        {
+          "name": "Creative Economy Development",
+          "budget": 25.0,
+          "progress": 35,
+          "startDate": "January 2024"
+        }
+      ],
+      "keyPrograms": [
+        "Youth Empowerment",
+        "Creative Economy",
+        "Sports Development",
+        "Talent Development"
+      ]
+    }
+  ]
+} 

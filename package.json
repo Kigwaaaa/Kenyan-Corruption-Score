@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Kenya Finance Watch - Ministry Budget Analysis",
   "scripts": {
-    "build": "cd kenya-finance-watch && npm install && npm run build",
+    "build": "cd kenya-finance-watch && npm install && npm run build && node -e \"const fs=require('fs');fs.cpSync('dist','../dist',{recursive:true,force:true});console.log('Build completed and dist copied to root')\" && node verify-build.js",
     "dev": "cd kenya-finance-watch && npm run dev",
     "install-deps": "cd kenya-finance-watch && npm install"
   },
