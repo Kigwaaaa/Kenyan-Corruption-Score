@@ -38,12 +38,21 @@ def get_data():
 
 @app.route('/')
 def serve_index():
+    # Try to serve from dist folder first (for production build)
+    if os.path.exists('dist/index.html'):
+        return send_from_directory('dist', 'index.html')
+    # Fallback to root directory (for development)
     return send_from_directory('.', 'index.html')
 
 @app.route('/<path:path>')
 def serve_static(path):
+    # Try to serve from dist folder first (for production build)
+    if os.path.exists(f'dist/{path}'):
+        return send_from_directory('dist', path)
+    # Fallback to root directory (for development)
     return send_from_directory('.', path)
 
 if __name__ == '__main__':
-    logging.info("Starting Flask server on port 8000...")
-    app.run(host='0.0.0.0', port=8000, debug=True) 
+    port = int(os.environ.get('PORT', 8000))
+    logging.info(f"Starting Flask server on port {port}...")
+    app.run(host='0.0.0.0', port=port, debug=False) 

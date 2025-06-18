@@ -23,6 +23,10 @@ export default defineConfig({
             console.log('Received Response from the Target:', proxyRes.statusCode, req.url);
           });
         }
+      },
+      '/api': {
+        target: 'http://localhost:8000',
+        changeOrigin: true
       }
     }
   },
@@ -33,6 +37,14 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    sourcemap: true
+    sourcemap: false,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          charts: ['chart.js', 'react-chartjs-2']
+        }
+      }
+    }
   }
 })
