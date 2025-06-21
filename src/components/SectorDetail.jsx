@@ -6,13 +6,21 @@ import ministriesData from '../data/ministries.json';
 const SectorDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const sector = sectors.find(s => s.id === parseInt(id));
+  
+  // Convert id to number and find the sector
+  const sectorId = parseInt(id);
+  const sector = sectors.find(s => s.id === sectorId);
   const { ministries } = ministriesData;
+
+  console.log('Sector ID from URL:', id, 'Parsed ID:', sectorId);
+  console.log('Available sectors:', sectors.map(s => ({ id: s.id, name: s.name })));
+  console.log('Found sector:', sector);
 
   if (!sector) {
     return (
       <div className="p-6 text-center">
         <h2 className="text-2xl font-bold text-white mb-4">Sector Not Found</h2>
+        <p className="text-gray-300 mb-4">Sector ID: {id}</p>
         <button
           onClick={() => navigate('/')}
           className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"

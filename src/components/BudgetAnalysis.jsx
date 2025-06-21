@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import sectors from '../data/sectors';
 
 const BudgetAnalysis = () => {
+  console.log('Available sectors for navigation:', sectors.map(s => ({ id: s.id, name: s.name })));
+
   return (
     <div className="p-6">
       <div className="mb-8">
@@ -28,37 +30,42 @@ const BudgetAnalysis = () => {
       <h1 className="text-3xl font-bold mb-6 text-white">Sector Budget Analysis</h1>
       <div className="bg-black rounded-lg shadow-lg p-6 mb-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {sectors.map((sector) => (
-            <Link 
-              to={`/sector/${sector.id}`} 
-              key={sector.id}
-              className="block bg-black border-2 border-gray-700 hover:border-gray-500 transition-colors rounded-lg p-6 hover:shadow-lg"
-            >
-              <h3 className="text-xl font-semibold mb-2 text-white">{sector.name}</h3>
-              <div className="space-y-2">
-                <p className="text-gray-300">
-                  <span className="font-medium">Allocation:</span> KES {sector.allocation}B
-                </p>
-                <p className="text-gray-300">
-                  <span className="font-medium">Percentage of Budget:</span> {sector.percentage}%
-                </p>
-                <p className="text-gray-300">
-                  <span className="font-medium">Efficiency:</span> {sector.efficiency}%
-                </p>
-                <p className="text-gray-300">
-                  <span className="font-medium">Corruption Index:</span> {sector.corruptionIndex}
-                </p>
-                <p className="text-gray-300">
-                  <span className="font-medium">Key Programs:</span>
-                </p>
-                <ul className="list-disc list-inside text-gray-300 ml-2">
-                  {sector.keyPrograms.slice(0, 2).map((program, index) => (
-                    <li key={index}>{program}</li>
-                  ))}
-                </ul>
-              </div>
-            </Link>
-          ))}
+          {sectors.map((sector) => {
+            const sectorUrl = `/sector/${sector.id}`;
+            console.log(`Creating link for sector ${sector.name} (ID: ${sector.id}) -> ${sectorUrl}`);
+            
+            return (
+              <Link 
+                to={sectorUrl}
+                key={sector.id}
+                className="block bg-black border-2 border-gray-700 hover:border-gray-500 transition-colors rounded-lg p-6 hover:shadow-lg"
+              >
+                <h3 className="text-xl font-semibold mb-2 text-white">{sector.name}</h3>
+                <div className="space-y-2">
+                  <p className="text-gray-300">
+                    <span className="font-medium">Allocation:</span> KES {sector.allocation}B
+                  </p>
+                  <p className="text-gray-300">
+                    <span className="font-medium">Percentage of Budget:</span> {sector.percentage}%
+                  </p>
+                  <p className="text-gray-300">
+                    <span className="font-medium">Efficiency:</span> {sector.efficiency}%
+                  </p>
+                  <p className="text-gray-300">
+                    <span className="font-medium">Corruption Index:</span> {sector.corruptionIndex}
+                  </p>
+                  <p className="text-gray-300">
+                    <span className="font-medium">Key Programs:</span>
+                  </p>
+                  <ul className="list-disc list-inside text-gray-300 ml-2">
+                    {sector.keyPrograms.slice(0, 2).map((program, index) => (
+                      <li key={index}>{program}</li>
+                    ))}
+                  </ul>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </div>
     </div>
