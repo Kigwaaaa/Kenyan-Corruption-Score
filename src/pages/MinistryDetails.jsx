@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
 const MinistryDetails = () => {
-  const { ministryId } = useParams();
+  const { name } = useParams();
   const navigate = useNavigate();
   const [ministry, setMinistry] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -13,10 +13,9 @@ const MinistryDetails = () => {
       try {
         const response = await fetch('/data.json');
         const data = await response.json();
-        const foundMinistry = data.find(m => 
-          m.name.toLowerCase().replace(/\s+/g, '-') === ministryId
+        const foundMinistry = data.ministries.find(m => 
+          m.name.toLowerCase().replace(/\s+/g, '-') === name
         );
-        
         if (foundMinistry) {
           setMinistry(foundMinistry);
         } else {
@@ -28,9 +27,8 @@ const MinistryDetails = () => {
         setLoading(false);
       }
     };
-
     fetchMinistryData();
-  }, [ministryId]);
+  }, [name]);
 
   if (loading) {
     return (
@@ -39,7 +37,6 @@ const MinistryDetails = () => {
       </div>
     );
   }
-
   if (error) {
     return (
       <div className="text-center py-8 text-kenya-red" role="alert">
@@ -47,7 +44,6 @@ const MinistryDetails = () => {
       </div>
     );
   }
-
   if (!ministry) {
     return (
       <div className="text-center py-8">
@@ -61,7 +57,6 @@ const MinistryDetails = () => {
       </div>
     );
   }
-
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="mb-8">
@@ -73,7 +68,6 @@ const MinistryDetails = () => {
         </button>
         <h1 className="text-3xl font-bold text-kenya-green mb-4">{ministry.name}</h1>
       </div>
-
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Leadership Information */}
         <div className="bg-white rounded-lg shadow-md p-6">
@@ -90,7 +84,6 @@ const MinistryDetails = () => {
             </div>
           </div>
         </div>
-
         {/* Financial Overview */}
         <div className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-xl font-semibold text-kenya-green mb-4">Financial Overview</h2>
@@ -113,29 +106,25 @@ const MinistryDetails = () => {
             </div>
           </div>
         </div>
-
         {/* Programs and Projects */}
         <div className="bg-white rounded-lg shadow-md p-6 md:col-span-2">
           <h2 className="text-xl font-semibold text-kenya-green mb-4">Programs and Projects</h2>
-          
           <div className="mb-6">
             <h3 className="font-medium mb-2">Completed Programs</h3>
             <ul className="list-disc list-inside space-y-2">
               {ministry.completedPrograms.map((program, index) => (
-                <li key={index} className="text-sm">{program}</li>
+                <li key={index} className="text-sm">{program.name} - {program.impact}</li>
               ))}
             </ul>
           </div>
-
           <div className="mb-6">
             <h3 className="font-medium mb-2">Ongoing Projects</h3>
             <ul className="list-disc list-inside space-y-2">
               {ministry.initiatedProjects.map((project, index) => (
-                <li key={index} className="text-sm">{project}</li>
+                <li key={index} className="text-sm">{project.name} - {project.progress}% complete</li>
               ))}
             </ul>
           </div>
-
           <div>
             <h3 className="font-medium mb-2">Key Programs</h3>
             <ul className="list-disc list-inside space-y-2">

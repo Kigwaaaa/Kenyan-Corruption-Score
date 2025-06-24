@@ -412,12 +412,13 @@ const MinistryTable = () => {
   const itemsPerPage = 5;
 
   const formatCurrency = (amount) => {
-    return new Intl.NumberFormat('en-KE', {
-      style: 'currency',
-      currency: 'KES',
-      minimumFractionDigits: 1,
-      maximumFractionDigits: 1,
-    }).format(amount);
+    if (amount >= 1000) {
+      return `KES ${(amount / 1000).toFixed(2)}T`;
+    } else if (amount >= 1) {
+      return `KES ${amount.toFixed(1)}B`;
+    } else {
+      return `KES ${(amount * 1000).toFixed(1)}M`;
+    }
   };
 
   const sortedData = [...hardcodedData.ministries].sort((a, b) => {

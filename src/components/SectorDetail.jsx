@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import sectors from '../data/sectors';
 import ministriesData from '../data/ministries.json';
+import sectorDetails from '../data/sectorDetails';
 
 const SectorDetail = () => {
   const { id } = useParams();
@@ -11,6 +12,7 @@ const SectorDetail = () => {
   const sectorId = parseInt(id);
   const sector = sectors.find(s => s.id === sectorId);
   const { ministries } = ministriesData;
+  const sectorInfo = sectorDetails[sector?.name];
 
   console.log('Sector ID from URL:', id, 'Parsed ID:', sectorId);
   console.log('Available sectors:', sectors.map(s => ({ id: s.id, name: s.name })));
@@ -34,17 +36,18 @@ const SectorDetail = () => {
   const sectorMinistries = ministries.filter(m => sector.ministries.includes(m.id));
 
   return (
-    <div className="p-6">
-      <div className="mb-6">
-        <button
-          onClick={() => navigate('/')}
-          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 mb-4"
-        >
-          Back to Dashboard
-        </button>
-        <h1 className="text-3xl font-bold text-white mb-2">{sector.name}</h1>
-        <p className="text-gray-300">Sector Details and Ministry Breakdown</p>
-      </div>
+    <div className="p-6 max-w-4xl mx-auto">
+      {/* Sector Info Card */}
+      {sectorInfo && (
+        <div className="mb-8 p-6 rounded-2xl shadow-lg bg-white/90 border-l-8 border-kenya-green">
+          <h1 className="text-3xl font-bold mb-2 text-kenya-black">{sector.name}</h1>
+          <div className="mb-2 text-lg font-semibold text-kenya-red">{sectorInfo.allocation}</div>
+          <div className="mb-4 text-gray-700 text-base"><span className="font-bold">Role:</span> {sectorInfo.role}</div>
+          <div className="mb-2 text-gray-700 text-base"><span className="font-bold">Challenges:</span> {sectorInfo.challenges}</div>
+          <div className="mb-2 text-gray-700 text-base"><span className="font-bold">Corruption Risk:</span> {sectorInfo.corruptionRisk}</div>
+          <div className="mb-2 text-gray-700 text-base"><span className="font-bold">Impact:</span> {sectorInfo.impact}</div>
+        </div>
+      )}
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
         {/* Sector Overview */}

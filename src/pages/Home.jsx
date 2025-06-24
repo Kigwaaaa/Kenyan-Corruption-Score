@@ -86,9 +86,12 @@ const Home = () => {
       <section className="bg-kenya-black text-kenya-white py-20">
         <div className="container mx-auto px-2 max-w-screen-md md:max-w-3xl lg:max-w-4xl">
           <div className="max-w-4xl mx-auto text-left">
-            <h1 className="text-sm font-bold mb-6 text-center">
+            <h1 className="text-3xl md:text-5xl font-extrabold mb-4 text-center">
               Kenya Finance Watch
             </h1>
+            <p className="text-lg md:text-xl text-center text-kenya-green font-medium mb-6 max-w-2xl mx-auto">
+              Promoting transparency and accountability in Kenya's public finances. Explore sector budgets, ministry allocations, and corruption scores with interactive charts and data-driven insights.
+            </p>
             <div className="text-sm md:text-base text-kenya-white italic text-center mb-6 min-h-[60px] transition-all duration-300 px-4 py-3 rounded-lg shadow-sm mx-auto max-w-2xl">
               <span>{animatedText}{isTyping && quoteText && <span className="blinking-cursor">|</span>}</span>
               {animatedText.length === quoteText.length && quoteText && (
@@ -108,44 +111,6 @@ const Home = () => {
                   51%, 100% { opacity: 0; }
                 }
               `}</style>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Features Section */}
-      <section className="py-16 bg-gray-900">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-kenya-white mb-12">
-            What We Do
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gray-800 p-6 rounded-lg">
-              <div className="text-kenya-red text-4xl mb-4">📊</div>
-              <h3 className="text-xl font-semibold text-kenya-white mb-3">
-                Budget Analysis
-              </h3>
-              <p className="text-gray-400">
-                Track and analyze government spending across ministries, providing detailed breakdowns of budget allocations and expenditures.
-              </p>
-            </div>
-            <div className="bg-gray-800 p-6 rounded-lg">
-              <div className="text-kenya-red text-4xl mb-4">🔍</div>
-              <h3 className="text-xl font-semibold text-kenya-white mb-3">
-                Transparency
-              </h3>
-              <p className="text-gray-400">
-                Make government financial data accessible and understandable to citizens, promoting accountability in public spending.
-              </p>
-            </div>
-            <div className="bg-gray-800 p-6 rounded-lg">
-              <div className="text-kenya-red text-4xl mb-4">📈</div>
-              <h3 className="text-xl font-semibold text-kenya-white mb-3">
-                Data Insights
-              </h3>
-              <p className="text-gray-400">
-                Provide comprehensive insights into financial trends, helping citizens understand how their tax money is being utilized.
-              </p>
             </div>
           </div>
         </div>
@@ -176,25 +141,6 @@ const Home = () => {
           >
             Explore Ministry Details
           </Link>
-        </div>
-      </section>
-
-      {/* Description & What We Do at the Bottom */}
-      <section className="py-10 bg-gray-900 border-t border-gray-800 mt-10">
-        <div className="container mx-auto px-2 max-w-screen-md md:max-w-3xl lg:max-w-4xl">
-          <div className="max-w-4xl mx-auto text-left mb-8">
-            <p className="text-xs text-gray-300 mb-8">
-              Kenya Finance Watch unveils the 2024-2025 Finance Bill's dark legacy, a KES 3.6 trillion budget slashed to KES 3.2 trillion after protests claimed 60 lives. Tax hikes on essentials ignited fury, exposing corrupt ministries like Agriculture while Education fares better. With clear "Corruption Scores," interactive charts, and downloadable reports from Treasury and Auditor General data, we empower Kenyans to confront leaders who cling to power despite broken trust. Demand accountability now!!
-            </p>
-          </div>
-          <h2 className="text-xs font-bold text-center text-kenya-white mb-6">
-            What We Do
-          </h2>
-          <div className="bg-gray-800 p-4 rounded-lg text-white text-xs space-y-2 text-left shadow">
-            <div>• Track and analyze government spending across ministries, including trillion-shilling budgets.</div>
-            <div>• Make financial data accessible and clear for all citizens.</div>
-            <div>• Get key insights into trends and public fund use.</div>
-          </div>
         </div>
       </section>
     </div>
