@@ -4,7 +4,7 @@ export const sectors = [
     name: "Education Sector",
     allocation: 675, // midpoint of 650-700
     percentage: 18.5, // midpoint of 17-20%
-    ministries: [1], // Ministry of Education
+    ministries: [10], // Ministry of Education
     keyPrograms: [
       "University Education",
       "Secondary Education",
@@ -18,7 +18,7 @@ export const sectors = [
     name: "Infrastructure Sector",
     allocation: 477.2,
     percentage: 16, // estimated
-    ministries: [3, 20], // Roads & Transport, Housing & Urban Dev
+    ministries: [4, 2, 18], // Roads and Transport; Lands, Public Works, Housing, and Urban Development; Water, Sanitation, and Irrigation
     keyPrograms: [
       "Roads, Railways, Airports",
       "Housing Projects"
@@ -31,7 +31,7 @@ export const sectors = [
     name: "Health Sector",
     allocation: 135, // midpoint of 120-150
     percentage: 6,
-    ministries: [2], // Ministry of Health
+    ministries: [9], // Ministry of Health
     keyPrograms: [
       "Universal Health Coverage",
       "NHIF Debt Clearance",
@@ -45,7 +45,7 @@ export const sectors = [
     name: "Security Sector",
     allocation: 300, // midpoint of 250-350
     percentage: 10,
-    ministries: [5, 6], // Defence, Interior
+    ministries: [11, 14], // Interior and National Administration; Defence
     keyPrograms: [
       "Police Operations",
       "Military Projects",
@@ -59,7 +59,7 @@ export const sectors = [
     name: "Agriculture and Food Security Sector",
     allocation: 65, // midpoint of 50-80
     percentage: 2.5,
-    ministries: [4], // Agriculture
+    ministries: [1], // Agriculture and Livestock Development
     keyPrograms: [
       "Irrigation",
       "Subsidies",
@@ -73,7 +73,7 @@ export const sectors = [
     name: "Governance and Public Administration Sector",
     allocation: 65, // midpoint of 50-80
     percentage: 2.5,
-    ministries: [21, 22], // Treasury, Public Service
+    ministries: [6, 13, 20], // National Treasury and Economic Planning; Public Service and Human Capital Development; East African Community and Regional Affairs
     keyPrograms: [
       "Budget Cuts",
       "Pending Bills",
@@ -87,7 +87,7 @@ export const sectors = [
     name: "Energy and ICT Sector",
     allocation: 100, // midpoint of 80-120
     percentage: 4,
-    ministries: [7, 8], // Energy, ICT
+    ministries: [3, 5], // Energy and Petroleum; Information, Communication, and Digital Economy
     keyPrograms: [
       "Electrification",
       "Digital Economy"
@@ -100,7 +100,7 @@ export const sectors = [
     name: "Environment and Natural Resources Sector",
     allocation: 30, // midpoint of 20-40
     percentage: 1.5,
-    ministries: [9, 10], // Environment, Mining
+    ministries: [17, 19], // Environment, Climate Change, and Forestry; Mining, Blue Economy, and Maritime Affairs
     keyPrograms: [
       "Green Growth",
       "Climate Response",
@@ -114,7 +114,7 @@ export const sectors = [
     name: "Social Services and Youth Sector",
     allocation: 65, // midpoint of 50-80
     percentage: 2.5,
-    ministries: [11, 12], // Youth, Gender
+    ministries: [21, 16, 15], // Youth Affairs, Creative Economy, and Sports; Gender, Culture, Arts & Heritage; Labour and Social Protection
     keyPrograms: [
       "Youth Programs",
       "Gender Equality",
@@ -128,7 +128,7 @@ export const sectors = [
     name: "Trade and Industry Sector",
     allocation: 40, // midpoint of 30-50
     percentage: 1.5,
-    ministries: [13], // Trade
+    ministries: [7], // Investments, Trade, and Industry
     keyPrograms: [
       "MSMEs",
       "Exports"
@@ -141,7 +141,7 @@ export const sectors = [
     name: "Water and Sanitation Sector",
     allocation: 40, // midpoint of 30-50
     percentage: 1.5,
-    ministries: [14], // Water
+    ministries: [18], // Water, Sanitation, and Irrigation
     keyPrograms: [
       "Water Projects"
     ],
@@ -153,7 +153,7 @@ export const sectors = [
     name: "Labour and Social Protection Sector",
     allocation: 30, // midpoint of 20-40
     percentage: 1,
-    ministries: [15], // Labour
+    ministries: [15], // Labour and Social Protection
     keyPrograms: [
       "Social Safety Nets"
     ],
@@ -165,7 +165,7 @@ export const sectors = [
     name: "Tourism and Wildlife Sector",
     allocation: 15, // midpoint of 10-20
     percentage: 0.5,
-    ministries: [16], // Tourism
+    ministries: [8], // Tourism and Wildlife
     keyPrograms: [
       "Tourism Recovery"
     ],

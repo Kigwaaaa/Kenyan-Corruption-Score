@@ -10,18 +10,9 @@ import {
   Legend
 } from 'chart.js';
 import kenyaFlag from '../assets/kenya-flag.svg';
+import { formatKES } from '../utils/format';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
-
-function formatKES(amount) {
-  if (amount >= 1000) {
-    return `KES ${(amount / 1000).toFixed(2)}T`;
-  } else if (amount >= 1) {
-    return `KES ${amount.toFixed(1)}B`;
-  } else {
-    return `KES ${(amount * 1000).toFixed(1)}M`;
-  }
-}
 
 const sectorColors = [
   '#CE1126', // Kenya Red
@@ -173,7 +164,10 @@ const BudgetAnalysis = () => {
           {/* Popout overlay */}
           {selectedSectorIdx !== null && (
             <div className="absolute inset-0 flex items-center justify-center z-20">
-              <div className="bg-white rounded-2xl shadow-2xl border-2 border-kenya-red p-8 max-w-md w-full relative animate-fade-in">
+              {/* Overlay background FIRST */}
+              <div className="fixed inset-0 bg-black/30 z-10" onClick={() => setSelectedSectorIdx(null)}></div>
+              {/* Popout content with higher z-index */}
+              <div className="bg-white rounded-2xl shadow-2xl border-2 border-kenya-red p-8 max-w-md w-full relative animate-fade-in z-20">
                 <button
                   className="absolute top-2 right-2 text-gray-400 hover:text-kenya-red text-2xl font-bold"
                   onClick={() => setSelectedSectorIdx(null)}
@@ -192,14 +186,57 @@ const BudgetAnalysis = () => {
                   </ul>
                 </div>
                 <Link
-                  to={`/sector/${sortedSectors[selectedSectorIdx].id}`}
+                  to={`/sector/${Number(sortedSectors[selectedSectorIdx].id)}`}
                   className="inline-block mt-4 bg-kenya-green text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors"
+                  onClick={() => console.log('Navigating to sector id:', sortedSectors[selectedSectorIdx].id)}
                 >
                   View Sector Details
                 </Link>
+                {/* Two-slice doughnut chart for selected sector vs rest */}
+                <div className="mt-8 flex flex-col items-center">
+                  <h4 className="text-lg font-bold mb-2 text-kenya-black">Sector vs Total Budget</h4>
+                  <div className="mb-2 text-gray-700 font-semibold">
+                    {formatKES(sortedSectors[selectedSectorIdx].allocation)} (
+                    {((sortedSectors[selectedSectorIdx].allocation / totalBudget) * 100).toFixed(1)}%) of total
+                  </div>
+                  <Doughnut
+                    data={{
+                      labels: [sortedSectors[selectedSectorIdx].name, 'All Other Sectors'],
+                      datasets: [{
+                        data: [sortedSectors[selectedSectorIdx].allocation, totalBudget - sortedSectors[selectedSectorIdx].allocation],
+                        backgroundColor: [sectorColors[selectedSectorIdx], '#e5e7eb'],
+                        borderColor: ['#fff', '#fff'],
+                        borderWidth: 2,
+                        hoverOffset: 16,
+                      }]
+                    }}
+                    options={{
+                      cutout: '68%',
+                      plugins: { 
+                        legend: { display: true },
+                        centerText: {
+                          percentage: ((sortedSectors[selectedSectorIdx].allocation / totalBudget) * 100).toFixed(1)
+                        }
+                      },
+                      animation: { animateRotate: true, animateScale: true },
+                      borderRadius: 16
+                    }}
+                    plugins={[{
+                      id: 'centerText',
+                      afterDraw(chart, args, options) {
+                        const { ctx, chartArea } = chart;
+                        ctx.save();
+                        ctx.font = 'bold 2rem sans-serif';
+                        ctx.textAlign = 'center';
+                        ctx.textBaseline = 'middle';
+                        ctx.fillStyle = '#CE1126';
+                        ctx.fillText(`${options.percentage}%`, (chartArea.left + chartArea.right) / 2, (chartArea.top + chartArea.bottom) / 2);
+                        ctx.restore();
+                      }
+                    }]}
+                  />
+                </div>
               </div>
-              {/* Overlay background */}
-              <div className="fixed inset-0 bg-black/30 z-10" onClick={() => setSelectedSectorIdx(null)}></div>
             </div>
           )}
         </div>

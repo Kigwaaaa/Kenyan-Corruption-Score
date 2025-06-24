@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import IrregularitiesList from './IrregularitiesList';
+import ministriesData from '../data/ministries.json';
 
 const MinistryDetail = () => {
   const { id } = useParams();
@@ -11,44 +12,20 @@ const MinistryDetail = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        setLoading(true);
-        setError(null);
-
-        // Fetch ministry data
-        const ministryResponse = await fetch('/data.json');
-        if (!ministryResponse.ok) {
-          throw new Error(`Failed to fetch ministry data: ${ministryResponse.statusText}`);
-        }
-        const ministryData = await ministryResponse.json();
-        const ministryInfo = ministryData.ministries.find(m => m.id === parseInt(id));
-        
-        if (!ministryInfo) {
-          throw new Error('Ministry not found');
-        }
-
-        // Fetch irregularities data
-        const irregularitiesResponse = await fetch('/irregularities.json');
-        if (!irregularitiesResponse.ok) {
-          throw new Error(`Failed to fetch irregularities data: ${irregularitiesResponse.statusText}`);
-        }
-        const irregularitiesData = await irregularitiesResponse.json();
-        const ministryIrregularities = irregularitiesData.irregularities.find(
-          i => i.ministryId === parseInt(id)
-        );
-
-        setMinistry(ministryInfo);
-        setIrregularities(ministryIrregularities);
-      } catch (err) {
-        console.error('Error fetching data:', err);
-        setError(err.message);
-      } finally {
-        setLoading(false);
+    setLoading(true);
+    setError(null);
+    try {
+      const ministryInfo = ministriesData.ministries.find(m => m.id === parseInt(id));
+      if (!ministryInfo) {
+        throw new Error('Ministry not found');
       }
-    };
-
-    fetchData();
+      setMinistry(ministryInfo);
+      // Optionally, setIrregularities(null) or fetch irregularities if needed
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
   }, [id]);
 
   if (loading) {
@@ -93,6 +70,16 @@ const MinistryDetail = () => {
         <div className="bg-white rounded-lg shadow p-6 mb-6">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">{ministry.name}</h1>
           <p className="text-gray-600 mb-4">{ministry.sector}</p>
+          
+          {/* Cabinet Secretary Info */}
+          <div className="mb-6">
+            <h3 className="text-lg font-semibold text-kenya-red mb-1">Cabinet Secretary</h3>
+            <div className="text-gray-900 font-bold">{ministry.leader.name}</div>
+            <div className="text-gray-700">{ministry.leader.position} ({ministry.leader.tenure})</div>
+            {ministry.leader.profile && (
+              <div className="text-gray-500 text-sm mt-1">{ministry.leader.profile}</div>
+            )}
+          </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-gray-50 rounded-lg p-4">

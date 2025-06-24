@@ -3,13 +3,13 @@
     {
       "id": 1,
       "name": "Ministry of Agriculture and Livestock Development",
-      "sector": "Agriculture, Rural and Urban Development",
+      "sector": "Agriculture",
       "allocation": 120.0,
       "percentage": 2.9,
       "leader": {
-        "name": "Hon. Mithika Linturi",
+        "name": "Mutahi Kagwe",
         "position": "Cabinet Secretary",
-        "tenure": "2022 - Present",
+        "tenure": "Appointed Jan 2025",
         "profile": "Former Senator with extensive agricultural policy experience"
       },
       "financialTracking": {
@@ -41,16 +41,17 @@
         "Agricultural Technology",
         "Livestock Development",
         "Market Access"
-      ]
+      ],
+      "sectorId": 1
     },
     {
       "id": 2,
       "name": "Ministry of Lands, Public Works, Housing, and Urban Development",
-      "sector": "Agriculture, Rural and Urban Development",
+      "sector": "Infrastructure",
       "allocation": 60.0,
       "percentage": 1.4,
       "leader": {
-        "name": "Hon. Alice Wahome",
+        "name": "Alice Wahome",
         "position": "Cabinet Secretary",
         "tenure": "2022 - Present",
         "profile": "Former MP with focus on housing and urban development"
@@ -84,16 +85,17 @@
         "Affordable Housing",
         "Urban Planning",
         "Public Works"
-      ]
+      ],
+      "sectorId": 2
     },
     {
       "id": 3,
       "name": "Ministry of Energy and Petroleum",
-      "sector": "Energy, Infrastructure, and ICT",
+      "sector": "Energy and ICT",
       "allocation": 100.0,
       "percentage": 2.4,
       "leader": {
-        "name": "Hon. Davis Chirchir",
+        "name": "James Opiyo Wandayi",
         "position": "Cabinet Secretary",
         "tenure": "2022 - Present",
         "profile": "Energy sector expert with focus on renewable energy"
@@ -127,16 +129,17 @@
         "Renewable Energy",
         "Power Distribution",
         "Petroleum Management"
-      ]
+      ],
+      "sectorId": 3
     },
     {
       "id": 4,
       "name": "Ministry of Roads and Transport",
-      "sector": "Energy, Infrastructure, and ICT",
+      "sector": "Infrastructure",
       "allocation": 150.0,
       "percentage": 3.6,
       "leader": {
-        "name": "Hon. Kipchumba Murkomen",
+        "name": "Davis Chirchir",
         "position": "Cabinet Secretary",
         "tenure": "2022 - Present",
         "profile": "Former Senator with focus on infrastructure development"
@@ -170,16 +173,17 @@
         "Public Transport",
         "Traffic Management",
         "Road Safety"
-      ]
+      ],
+      "sectorId": 4
     },
     {
       "id": 5,
       "name": "Ministry of Information, Communication, and the Digital Economy",
-      "sector": "Energy, Infrastructure, and ICT",
+      "sector": "Energy and ICT",
       "allocation": 100.0,
       "percentage": 2.4,
       "leader": {
-        "name": "Hon. Eliud Owalo",
+        "name": "William Kabogo Gitau",
         "position": "Cabinet Secretary",
         "tenure": "2022 - Present",
         "profile": "ICT expert with focus on digital transformation"
@@ -213,16 +217,17 @@
         "Digital Services",
         "Broadband Access",
         "E-Government"
-      ]
+      ],
+      "sectorId": 5
     },
     {
       "id": 6,
       "name": "Ministry of Finance and Economic Planning",
-      "sector": "General Economic and Commercial Affairs",
+      "sector": "Governance",
       "allocation": 80.0,
       "percentage": 1.9,
       "leader": {
-        "name": "Hon. Njuguna Ndung'u",
+        "name": "John Mbadi",
         "position": "Cabinet Secretary",
         "tenure": "2022 - Present",
         "profile": "Former Central Bank Governor with extensive economic expertise"
@@ -256,16 +261,17 @@
         "Economic Planning",
         "Public Finance",
         "Tax Administration"
-      ]
+      ],
+      "sectorId": 6
     },
     {
       "id": 7,
       "name": "Ministry of Trade, Investment, and Industry",
-      "sector": "General Economic and Commercial Affairs",
+      "sector": "Trade",
       "allocation": 40.0,
       "percentage": 1.0,
       "leader": {
-        "name": "Hon. Rebecca Miano",
+        "name": "Lee Kinyanjui",
         "position": "Cabinet Secretary",
         "tenure": "2022 - Present",
         "profile": "Former corporate executive with focus on trade and investment"
@@ -299,19 +305,20 @@
         "Investment Attraction",
         "Industrial Development",
         "Export Growth"
-      ]
+      ],
+      "sectorId": 7
     },
     {
       "id": 8,
       "name": "Ministry of Tourism and Wildlife",
-      "sector": "General Economic and Commercial Affairs",
+      "sector": "Tourism",
       "allocation": 30.0,
       "percentage": 0.7,
       "leader": {
-        "name": "Hon. Alfred Mutua",
+        "name": "Rebecca Miano",
         "position": "Cabinet Secretary",
         "tenure": "2022 - Present",
-        "profile": "Former Governor with focus on tourism development"
+        "profile": "Former KenGen CEO"
       },
       "financialTracking": {
         "allocated": 30.0,
@@ -342,7 +349,8 @@
         "Wildlife Conservation",
         "Heritage Sites",
         "Eco-Tourism"
-      ]
+      ],
+      "sectorId": 8
     },
     {
       "id": 9,
@@ -351,9 +359,9 @@
       "allocation": 200.0,
       "percentage": 4.8,
       "leader": {
-        "name": "Hon. Susan Nakhumicha",
+        "name": "Aden Bare Duale",
         "position": "Cabinet Secretary",
-        "tenure": "2022 - Present",
+        "tenure": "Appointed March 25, 2025",
         "profile": "Healthcare management expert with focus on universal healthcare"
       },
       "financialTracking": {
@@ -385,18 +393,19 @@
         "Medical Infrastructure",
         "Disease Prevention",
         "Healthcare Training"
-      ]
+      ],
+      "sectorId": 9
     },
     {
       "id": 10,
       "name": "Ministry of Education",
-      "sector": "Education, Technical Training, and Innovation",
+      "sector": "Education",
       "allocation": 666.5,
       "percentage": 16.0,
       "leader": {
-        "name": "Hon. Ezekiel Machogu",
+        "name": "Julius Migos Ogamba",
         "position": "Cabinet Secretary",
-        "tenure": "2022 - Present",
+        "tenure": "Took over Aug 8, 2024",
         "profile": "Former education administrator with focus on curriculum reform"
       },
       "financialTracking": {
@@ -428,16 +437,17 @@
         "Teacher Training",
         "Infrastructure Development",
         "Curriculum Reform"
-      ]
+      ],
+      "sectorId": 10
     },
     {
       "id": 11,
       "name": "Ministry of Interior and National Administration",
-      "sector": "Governance, Justice, Law and Order",
+      "sector": "Security",
       "allocation": 170.0,
       "percentage": 4.1,
       "leader": {
-        "name": "Hon. Kithure Kindiki",
+        "name": "Kipchumba Murkomen",
         "position": "Cabinet Secretary",
         "tenure": "2022 - Present",
         "profile": "Former Senator with focus on security and governance"
@@ -471,18 +481,19 @@
         "Civil Registration",
         "Border Control",
         "Emergency Response"
-      ]
+      ],
+      "sectorId": 11
     },
     {
       "id": 12,
       "name": "Ministry of Public Service, Gender, and Affirmative Action",
-      "sector": "Public Administration and International Relations",
+      "sector": "Governance",
       "allocation": 80.0,
       "percentage": 1.9,
       "leader": {
-        "name": "Hon. Aisha Jumwa",
+        "name": "Hanna Wendot Cheptumo",
         "position": "Cabinet Secretary",
-        "tenure": "2022 - Present",
+        "tenure": "Appointed March 26, 2025",
         "profile": "Former MP with focus on gender equality and public service"
       },
       "financialTracking": {
@@ -514,19 +525,20 @@
         "Gender Equality",
         "Affirmative Action",
         "Capacity Building"
-      ]
+      ],
+      "sectorId": 12
     },
     {
       "id": 13,
       "name": "Ministry of Foreign and Diaspora Affairs",
-      "sector": "Public Administration and International Relations",
+      "sector": "Foreign Affairs",
       "allocation": 70.0,
       "percentage": 1.7,
       "leader": {
-        "name": "Hon. Musalia Mudavadi",
-        "position": "Cabinet Secretary",
+        "name": "Musalia Mudavadi",
+        "position": "Prime Cabinet Secretary",
         "tenure": "2022 - Present",
-        "profile": "Former Prime Minister with extensive diplomatic experience"
+        "profile": "Prime Cabinet Secretary, leads foreign policy"
       },
       "financialTracking": {
         "allocated": 70.0,
@@ -557,16 +569,17 @@
         "Diaspora Affairs",
         "International Cooperation",
         "Foreign Policy"
-      ]
+      ],
+      "sectorId": 13
     },
     {
       "id": 14,
       "name": "Ministry of Defence",
-      "sector": "National Security",
+      "sector": "Security",
       "allocation": 150.0,
       "percentage": 3.6,
       "leader": {
-        "name": "Hon. Aden Duale",
+        "name": "Soipan Tuya",
         "position": "Cabinet Secretary",
         "tenure": "2022 - Present",
         "profile": "Former MP with focus on national security"
@@ -600,19 +613,20 @@
         "Military Training",
         "Equipment Modernization",
         "Border Security"
-      ]
+      ],
+      "sectorId": 14
     },
     {
       "id": 15,
       "name": "Ministry of Labour and Social Protection",
-      "sector": "Social Protection, Culture and Recreation",
+      "sector": "Social Services",
       "allocation": 60.0,
       "percentage": 1.4,
       "leader": {
-        "name": "Hon. Florence Bore",
+        "name": "Dr. Alfred N. Mutua",
         "position": "Cabinet Secretary",
         "tenure": "2022 - Present",
-        "profile": "Former MP with focus on labor rights and social protection"
+        "profile": "Former Machakos Governor"
       },
       "financialTracking": {
         "allocated": 60.0,
@@ -643,55 +657,13 @@
         "Social Protection",
         "Employment Creation",
         "Workplace Safety"
-      ]
+      ],
+      "sectorId": 15
     },
     {
       "id": 16,
-      "name": "Ministry of Sports, Culture, and Heritage",
-      "sector": "Social Protection, Culture and Recreation",
-      "allocation": 40.0,
-      "percentage": 1.0,
-      "leader": {
-        "name": "Hon. Ababu Namwamba",
-        "position": "Cabinet Secretary",
-        "tenure": "2022 - Present",
-        "profile": "Former MP with focus on sports and cultural development"
-      },
-      "financialTracking": {
-        "allocated": 40.0,
-        "utilized": 35.0,
-        "pending": 5.0,
-        "lost": 0,
-        "efficiency": 87.5,
-        "corruptionIndex": 0.2
-      },
-      "completedPrograms": [
-        {
-          "name": "Sports Infrastructure Development",
-          "cost": 15.0,
-          "impact": "Built 50 sports facilities",
-          "completionDate": "February 2024"
-        }
-      ],
-      "initiatedProjects": [
-        {
-          "name": "Cultural Heritage Preservation",
-          "budget": 20.0,
-          "progress": 35,
-          "startDate": "January 2024"
-        }
-      ],
-      "keyPrograms": [
-        "Sports Development",
-        "Cultural Heritage",
-        "Youth Sports",
-        "Tourism Promotion"
-      ]
-    },
-    {
-      "id": 17,
       "name": "Ministry of Environment and Forestry",
-      "sector": "Environment Protection, Water and Natural Resources",
+      "sector": "Environment",
       "allocation": 50.0,
       "percentage": 1.2,
       "leader": {
@@ -729,16 +701,17 @@
         "Climate Change",
         "Environmental Protection",
         "Wildlife Management"
-      ]
+      ],
+      "sectorId": 16
     },
     {
-      "id": 18,
+      "id": 17,
       "name": "Ministry of Water, Sanitation, and Irrigation",
-      "sector": "Environment Protection, Water and Natural Resources",
+      "sector": "Environment",
       "allocation": 40.0,
       "percentage": 1.0,
       "leader": {
-        "name": "Hon. Alice Wahome",
+        "name": "Eric Muriithi",
         "position": "Cabinet Secretary",
         "tenure": "2022 - Present",
         "profile": "Former MP with focus on water resource management"
@@ -772,12 +745,13 @@
         "Sanitation",
         "Irrigation",
         "Water Conservation"
-      ]
+      ],
+      "sectorId": 17
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "Ministry of Mining, Blue Economy, and Maritime Affairs",
-      "sector": "Environment Protection, Water and Natural Resources",
+      "sector": "Environment",
       "allocation": 30.0,
       "percentage": 0.7,
       "leader": {
@@ -815,19 +789,20 @@
         "Blue Economy",
         "Maritime Affairs",
         "Resource Management"
-      ]
+      ],
+      "sectorId": 18
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "Ministry of East African Community and Regional Development",
-      "sector": "Public Administration and International Relations",
+      "sector": "Foreign Affairs",
       "allocation": 50.0,
       "percentage": 1.2,
       "leader": {
-        "name": "Hon. Rebecca Miano",
+        "name": "Beatrice Askul Moe",
         "position": "Cabinet Secretary",
         "tenure": "2022 - Present",
-        "profile": "Former corporate executive with focus on regional integration"
+        "profile": "Assumed position, verification needed"
       },
       "financialTracking": {
         "allocated": 50.0,
@@ -858,19 +833,20 @@
         "Cross-Border Trade",
         "Infrastructure Development",
         "Policy Harmonization"
-      ]
+      ],
+      "sectorId": 19
     },
     {
-      "id": 21,
-      "name": "Ministry of Youth Affairs, Creative Economy, and Sports",
-      "sector": "Public Administration and International Relations",
+      "id": 20,
+      "name": "Ministry of Youth Affairs, Sports, and the Arts",
+      "sector": "Social Services",
       "allocation": 50.0,
       "percentage": 1.2,
       "leader": {
-        "name": "Hon. Ababu Namwamba",
+        "name": "Hon. Ababu Namwamba, EGH",
         "position": "Cabinet Secretary",
         "tenure": "2022 - Present",
-        "profile": "Former MP with focus on youth development"
+        "profile": "Previously Minister for Sports and Youth Affairs"
       },
       "financialTracking": {
         "allocated": 50.0,
@@ -901,7 +877,8 @@
         "Creative Economy",
         "Sports Development",
         "Talent Development"
-      ]
+      ],
+      "sectorId": 20
     }
   ]
 } 
